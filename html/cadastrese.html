@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <ul class="back-container">
+                <li class="back"><a href="index.html">Volte para o início</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="signup-page">
+            <div class="signup-image">
+                <img src="../assets/jiji.jpg">
+            </div>
+
+            <header class="signup-container">
+                <div class="signup-header">
+                    <h1>Crie sua conta agora</h1>
+                    <h2>Vamos preparar sua conta!</h2>
+                </div>
+
+                <form class="signup-form" id="cadastro-form">
+                    <div class="form-group">
+                        <label>
+                            <i data-lucide="user-round"></i>
+                            Nome
+                        </label>
+                        <input type="text" name="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                          <i data-lucide="map-pinned"></i>
+                          Endereço:
+                        </label>
+                        <input type="text" name="endereco" placeholder="Rua do Vento Norte, nº87" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                          <i data-lucide="map"></i>
+                          Bairro:
+                        </label>
+                        <input type="text" name="bairro" placeholder="Bairro das Nuvens" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                          <i data-lucide="mail"></i>
+                          Email
+                        </label>
+                        <input type="email" name="email" placeholder="exemplo@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>
+                          <i data-lucide="lock"></i>
+                          Senha
+                        </label>
+                        <input type="password" name="senha" placeholder="••••••••" required>
+                    </div>
+
+                    <div class="header-button">
+                        <button type="submit" class="btn-signup">
+                            <span>Salvar</span>
+                        </button>
+
+                        <button type="reset" class="btn-signup">
+                            <span>Limpar</span>
+                        </button>
+    
+                    </div>
+
+                </form>
+                <h2>Já tem uma conta? <a href="entrar.html">Entrar</a></h2>
+            </header>
+        </section>
+    </main>
+
+    <footer>
+        <div class="direitos">
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <p>© 2025 Kiki's Delivery. All rights reserved.</p>
+        </div>
+        <section class="social">
+            <div>
+                <span>Endereço:</span>
+                <p>Rua dos Ventos Nortes, 87, Jardim das Nuvens</p>
+            </div>
+            <div>
+                <span>Contato</span>
+                <p>contact-info@kikisdelivery.com</p>
+            </div>
+            <div>
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/?locale=pt_BR"><i data-lucide="facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i data-lucide="youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i data-lucide="instagram"></i></a></li>
+                </ul>
+            </div>
+        </section>
+            
+        <section class="footer-container">
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">KIKI'S DELIVERY</span>
+                <ul class="footer-itens">
+                    <li><a href="index.html">Home</a></li><br>
+                    <li><a href="contatenos.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">Descubra</span>
+                <ul class="footer-itens">
+                    <li><a href="sobre.html">Sobre</a></li><br>
+                    <li><a href="restaurante.html">Restaurante</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

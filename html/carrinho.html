@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurante.html">Restaurante</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatenos.html">Contato</a></li>
+            </ul>
+            <ul class="login-signup">
+                <li><a href="entrar.html"><i data-lucide="circle-user-round"></i></a></li>
+                <li class="signup"><a href="carrinho.html"><i data-lucide="shopping-cart"></i></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1>Seu Carrinho</h1>
+
+            <div class="cart-container">
+
+                <div class="cart-items">
+
+                </div>
+
+                <!-- Resumo do Pedido -->
+                <div class="order-summary">
+                    <h2>Resumo do Pedido</h2>
+                    <p>Subtotal: <span>R$ --,--</span></p>
+                    <p>Entrega: <span>--</span></p>
+                    <hr>
+                    <p class="total">Total: <span>R$ --,--</span></p>
+
+                    <button class="checkout-btn">Finalizar Pedido</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="direitos">
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <p>© 2025 Kiki's Delivery. All rights reserved.</p>
+        </div>
+        <section class="social">
+            <div>
+                <span>Endereço:</span>
+                <p>Rua dos Ventos Nortes, 87, Jardim das Nuvens</p>
+            </div>
+            <div>
+                <span>Contato</span>
+                <p>contact-info@kikisdelivery.com</p>
+            </div>
+            <div>
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/?locale=pt_BR"><i data-lucide="facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i data-lucide="youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i data-lucide="instagram"></i></a></li>
+                </ul>
+            </div>
+        </section>
+            
+        <section class="footer-container">
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">KIKI'S DELIVERY</span>
+                <ul class="footer-itens">
+                    <li><a href="index.html">Home</a></li><br>
+                    <li><a href="contatenos.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">Descubra</span>
+                <ul class="footer-itens">
+                    <li><a href="sobre.html">Sobre</a></li><br>
+                    <li><a href="restaurante.html">Restaurante</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="../js/script-card.js"></script>
+</body>
+</html>

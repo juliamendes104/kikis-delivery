@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="restaurante.html">Restaurante</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contatenos.html">Contato</a></li>
+            </ul>
+            <ul class="login-signup">
+                <li><a href="entrar.html"><i data-lucide="circle-user-round"></i></a></li>
+                <li class="signup"><a href="carrinho.html"><i data-lucide="shopping-cart"></i></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-page">
+            <header class="search-container">
+                <h1>Encontre Os Melhores <span>Restaurantes</span></h1>
+                <div class="search">
+                    <input type="text" name="search" placeholder="Pesquise Rua, Cidade, Bairro">
+                    <button type="submit" class="btn-search">
+                        <span><i data-lucide="search"></i></span>
+                    </button>
+                </div>
+            </header>
+        </section>
+
+        <section class="restaurants-layout">
+            <header class="header-restaurant">
+                <h2>Restaurantes em Destaque</h2>
+                <p>Dê uma olhada nos restaurantes mais amados!</p>
+            </header>
+            <div class="restaurant-grid">
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card1.jpg" alt="Sabor do Castelo">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Extraordinário · 5/5</span>
+                        <h2>Sabor do Castelo</h2>
+                        <p>Delícias preparadas com fogo mágico direto da lareira do castelo do Howl, ideal para quem busca conforto e encanto.</p>
+                        <p><i data-lucide="map-pin"></i> Castelo do Howl</p>
+                        <p><i data-lucide="clock"></i> 5:00 PM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Sopa de Abóbora Encantada</span>
+                                    <span class="price">R$ 25,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Pão Mágico de Cal</span>
+                                    <span class="price">R$ 12,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Chá das Estrelas</span>
+                                    <span class="price">R$ 8,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card4.jpg" alt="Cantinho do Totoro">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Extraordinário · 5/5</span>
+                        <h2>Cantinho do Totoro</h2>
+                        <p>Um restaurante com clima de floresta tranquila, onde cada prato é feito com simplicidade e carinho pelo chefe Totoro.</p>
+                        <p><i data-lucide="map-pin"></i> Floresta do Totoro</p>
+                        <p><i data-lucide="clock"></i> 11:00 AM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Arroz com Legumes da Floresta</span>
+                                    <span class="price">R$ 22,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Bolinho de Tofu com Ervas</span>
+                                    <span class="price">R$ 16,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Chá de Folhas Encantadas</span>
+                                    <span class="price">R$ 10,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card3.jpg" alt="Padaria da Colina">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Muito Bom · 4/5</span>
+                        <h2>Padaria da Colina</h2>
+                        <p>Um cantinho acolhedor no topo da colina, onde os pães saem quentinhos do forno e os doces são preparados com carinho.</p>
+                        <p><i data-lucide="map-pin"></i> Colina Encantada</p>
+                        <p><i data-lucide="clock"></i> 8:00 AM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Pão de Mel da Colina</span>
+                                    <span class="price">R$ 8,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Brioche Recheado com Geleia de Frutas</span>
+                                    <span class="price">R$ 12,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Torta Caseira de Maçã</span>
+                                    <span class="price">R$ 18,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+            </div>
+
+            <p class="restaurants-subtitulo">Todos os Restaurantes</p>
+            <div class="restaurant-grid">
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card1.jpg" alt="Sabor do Castelo">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Extraordinário · 5/5</span>
+                        <h2>Sabor do Castelo</h2>
+                        <p>Delícias preparadas com fogo mágico direto da lareira do castelo do Howl, ideal para quem busca conforto e encanto.</p>
+                        <p><i data-lucide="map-pin"></i> Castelo do Howl</p>
+                        <p><i data-lucide="clock"></i> 5:00 PM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Sopa de Abóbora Encantada</span>
+                                    <span class="price">R$ 25,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Pão Mágico de Cal</span>
+                                    <span class="price">R$ 12,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Chá das Estrelas</span>
+                                    <span class="price">R$ 8,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card2.jpg" alt="Sem Rosto Lanches">
+                    <div class="info">
+                        <span class="rating">Bom · 3/5</span>
+                        <h2>Sem Rosto Lanches</h2>
+                        <p>Pratos misteriosos e reconfortantes que agradam até os espíritos mais exigentes. Um lanche rápido com sabor de outra dimensão.</p>
+                        <p><i data-lucide="map-pin"></i> Cidade dos Espíritos</p>
+                        <p><i data-lucide="clock"></i> 3:00 AM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Hambúrguer das Sombras</span>
+                                    <span class="price">R$ 28,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Batatas do Espírito Viajante</span>
+                                    <span class="price">R$ 15,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Milkshake do Outro Mundo</span>
+                                    <span class="price">R$ 18,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card4.jpg" alt="Cantinho do Totoro">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Extraordinário · 5/5</span>
+                        <h2>Cantinho do Totoro</h2>
+                        <p>Um restaurante com clima de floresta tranquila, onde cada prato é feito com simplicidade e carinho pelo chefe Totoro.</p>
+                        <p><i data-lucide="map-pin"></i> Floresta do Totoro</p>
+                        <p><i data-lucide="clock"></i> 11:00 AM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Arroz com Legumes da Floresta</span>
+                                    <span class="price">R$ 22,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Bolinho de Tofu com Ervas</span>
+                                    <span class="price">R$ 16,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Chá de Folhas Encantadas</span>
+                                    <span class="price">R$ 10,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+                <div class="restaurant-card featured">
+                    <img src="../assets/card3.jpg" alt="Padaria da Colina">
+                    <div class="info">
+                        <span class="featured-badge">Destaque</span>
+                        <span class="rating">Muito Bom · 4/5</span>
+                        <h2>Padaria da Colina</h2>
+                        <p>Um cantinho acolhedor no topo da colina, onde os pães saem quentinhos do forno e os doces são preparados com carinho.</p>
+                        <p><i data-lucide="map-pin"></i> Colina Encantada</p>
+                        <p><i data-lucide="clock"></i> 8:00 AM</p>
+                        <details>
+                            <summary>Ver Cardápio</summary>
+                            <ul>
+                                <li>
+                                    <span class="dish-name">Pão de Mel da Colina</span>
+                                    <span class="price">R$ 8,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Brioche Recheado com Geleia de Frutas</span>
+                                    <span class="price">R$ 12,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                                <li>
+                                    <span class="dish-name">Torta Caseira de Maçã</span>
+                                    <span class="price">R$ 18,00</span>
+                                    <button class="add-to-cart"><i data-lucide="shopping-cart"></i></button>
+                                </li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="direitos">
+            <span class="logo"><i data-lucide="cat"></i> kiki's delivery</span>
+            <p>© 2025 Kiki's Delivery. All rights reserved.</p>
+        </div>
+        <section class="social">
+            <div>
+                <span>Endereço:</span>
+                <p>Rua dos Ventos Nortes, 87, Jardim das Nuvens</p>
+            </div>
+            <div>
+                <span>Contato</span>
+                <p>contact-info@kikisdelivery.com</p>
+            </div>
+            <div>
+                <ul class="icons">
+                    <li><a href="https://www.facebook.com/?locale=pt_BR"><i data-lucide="facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i data-lucide="youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i data-lucide="instagram"></i></a></li>
+                </ul>
+            </div>
+        </section>
+            
+        <section class="footer-container">
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">KIKI'S DELIVERY</span>
+                <ul class="footer-itens">
+                    <li><a href="index.html">Home</a></li><br>
+                    <li><a href="contatenos.html">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-colunas">
+                <span class="footer-subtitulo">Descubra</span>
+                <ul class="footer-itens">
+                    <li><a href="sobre.html">Sobre</a></li><br>
+                    <li><a href="restaurante.html">Restaurante</a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="../js/script-restaurant.js"></script>
+</body>
+</html>
