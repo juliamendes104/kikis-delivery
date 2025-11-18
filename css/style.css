@@ -323,8 +323,11 @@ footer {
     font-family: "Inter", sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    color: white;
     cursor: pointer;
+}
+
+.btn-signup span {
+    color: white;
 }
 
 input::placeholder, textarea::placeholder {
